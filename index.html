@@ -5,25 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Port of Longview - Traveler Training</title>
   <style>
-    body { font-family: sans-serif; text-align: center; margin: 2em; }
-    iframe { width: 100%; height: 700px; border: none; margin-top: 1em; }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 2em;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #003B5C;
+    }
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      margin-top: 1em;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
     .button {
       background-color: #005A9C;
       color: white;
-      padding: 12px 24px;
+      padding: 18px 30px;
       text-decoration: none;
-      font-size: 18px;
-      border-radius: 5px;
+      font-size: 20px;
+      border-radius: 6px;
       display: inline-block;
-      margin-top: 30px;
+      margin: 40px auto;
+    }
+    .spacer-text {
+      margin-top: 40px;
+      font-size: 18px;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <h1>Traveler Training Portal</h1>
-  <p>Please review the training material below. When finished, click the button to complete the acknowledgment form.</p>
+  <p>Please review the training material below. When finished, complete the acknowledgment form.</p>
 
-  <iframe src="training.pdf"></iframe>
+  <iframe src="https://docs.google.com/gview?url=https://portoflongview.github.io/training-portal/training.pdf&embedded=true"></iframe>
+
+  <p class="spacer-text">
+    When you’ve finished reviewing the training, click below to complete the acknowledgment form:
+  </p>
 
   <a href="https://forms.office.com/r/Bc0jcxEdCP" class="button" target="_blank">
     Start Acknowledgment Form
